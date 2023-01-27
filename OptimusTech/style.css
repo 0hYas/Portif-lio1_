@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #3A404E;
+    font-weight: 700;
+}
+
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.a {
+    text-decoration-line: none;
+    color: #667085;
+}
+
+.a:hover {
+    color: black;
+}
+
+
+.cadastrar {
+    padding: 13px;
+    border-radius: 7px;
+    background-color: #8E2424;
+    font-size: 16px;
+}
+
+.cadastrar a {
+    text-decoration-line: none;
+    color: white;
+}
+
+.login-css {
+    margin-top: 13px;
+    font-size: 16px;
+
+}
+
+.login-css a {
+    text-decoration-line: none;
+    color: #667085;
+}
+
+.login-css a:hover {
+    color: black;
+}
+
+
+.infos {
+    text-align: center;
+    margin-top: 96px;
+}
+
+.about {
+    color: #8E2424;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 48px;
+    padding: 24px;
+}
+
+.about-text {
+    margin: 0px 220px 96px 220px;
+    color: #667085;
+    font-size: 20px;
+}
+
+.metricas {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    gap: 32px;
+    justify-content: center;
+    margin-bottom: 96px;
+
+}
+
+h4 {
+    color: #8E2424;
+    font-size: 60px;
+}
+
+.titulinho {
+    font-weight: 700;
+    margin: 12px 0 10px 0;
+    font-size: 18px;
+}
+
+.textinho {
+    color: #667085;
+    font-size: 16px;
+}
+
+.vagas {
+    margin-top: 96px;
+}
+
+.vagas__abertas {
+    color: #8E2424;
+    font-weight: 700;
+    text-align: center;
+    padding: 12px 4px;
+    background-color: #8e24241f;
+    border-radius: 16px;
+    font-size: 14px;
+    margin: 0% 45%;
+    margin-bottom: 16px;
+}
+
+h6 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.vagas__desc {
+    color: #667085;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.time {
+    margin: 64px 60px 24px 60px;
+}
+
+.prof {
+    margin: 40px 227px;
+}
+
+.dev {
+    margin: 24px 227px;
+    padding: 24px 24px;
+    border: 1px solid;
+    border-radius: 16px;
+    border-color: #EAECF0;
+
+}
+
+.prof {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+.titulo-vaga {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.informacoes {
+    margin-top: 24px;
+    color: #667085;
+    font-size: 16px;
+}
+
+.fulltime {
+    padding-right: 24px;
+}
+
+.comments {
+    margin: 72px 79px;
+    padding: 64px;
+    background-color: #c3191907;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.colab {
+    color: #8E2424;
+    font-size: 14px; 
+    font-weight: 700;
+}
+
+.h8 {
+    
+    font-size: 36px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.nome {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.profis {
+    color: #667085;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #F9FAFB;
+    text-align: center;
+    padding: 96px;
+}
+
+.call {
+    font-size: 20px;
+    color: #667085;
+}
+
+.email {
+    margin: 40px 0px 32px 0px;
+    padding: 12px 14px 12px 16px;
+    border-radius: 8px;
+    border-color: #667085;
+    border: 1px solid #D0D5DD;
+}
+
+.direitos {
+    color: #667085;
+    font-size: 16px;
+}
+
+.botao {
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: #8E2424;
+    color: white;
+}
